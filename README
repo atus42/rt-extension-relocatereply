@@ -1,0 +1,11 @@
+# rt-extension-relocatereply
+
+INSTALLATION:
+
+- copy files to /usr/local/share/request-tracker4/plugins/
+- copy the etc#RT_SiteConfig.d/60-RelocateReply file to /etc/request-tracker4/RT_SiteConfig.d/
+- create the /usr/local/share/request-tracker4/html/Callbacks/RT-Extension-RelocateReply/ directory
+- move the entire Elements directory under the created directory, thus creating the /usr/local/share/request-tracker4/html/Callbacks/RT-Extension-RelocateReply/Elements/ShowTransaction/Default file.
+- run update-rt-siteconfig-4
+- restart webserver to apply changes
+

@@ -1,0 +1,21 @@
+#
+msgid ""
+msgstr ""
+"Last-Translator: Attila Kadar<attila.kadar@mithrandir.hu>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Relocate"
+msgstr "Áthelyez"
+
+msgid "Transaction #%1 from this place was relocated to ticket #%2 at %3"
+msgstr "Erről a helyről a #%1 számú tranzakció %3-kor áthelyezésre került a #%2 számú jegybe"
+
+msgid "Transaction #%1 from this ticket was relocated to ticket #%2"
+msgstr "Ebből a jegyből a #%1 számú tranzakció áthelyezésre került a #%2 számú jegybe"
+
+msgid "Transaction #%1 (%2) from ticket #%3 was relocated to this ticket"
+msgstr "A #%1 számú tranzakció (%2) a #%3 számú jegyből áthelyezésre került ebbe a jegybe"
+

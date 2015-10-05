@@ -25,14 +25,15 @@ if ( $txn_type =~ /^Relocate/ ) {
             $desc = loc("Transaction #[_1] from this place was relocated to ticket #[_2] at [_3]",
              $data[0]||'??' ,$Transaction->NewValue ,$relocate_date );
         } else {
-            $desc = loc("Transaction #[_1] from this ticket was relocated to ticket #[_2] at [_3]",
-             $data[0]||'??' ,$Transaction->NewValue ,$relocate_date );
+            $desc = loc("Transaction #[_1] from this ticket was relocated to ticket #[_2]",
+             $data[0]||'??' ,$Transaction->NewValue );
         }
     } else {
-        $desc = loc("Transaction #[_1] ([_2]) from ticket #[_3] was relocated to this ticket at [_4]",
-         $data[0]||'??' ,$relocated_transaction_date ,$Transaction->OldValue ,$relocate_date );
+        $desc = loc("Transaction #[_1] ([_2]) from ticket #[_3] was relocated to this ticket",
+         $data[0]||'??' ,$relocated_transaction_date ,$Transaction->OldValue );
     }
     $$Description = $desc;
+    return;
 }
 return if ( $txn_type !~ /Correspond|Comment$/ );
 

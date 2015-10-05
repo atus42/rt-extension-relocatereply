@@ -19,3 +19,41 @@ msgstr "Ebből a jegyből a #%1 számú tranzakció áthelyezésre került a #%2
 msgid "Transaction #%1 (%2) from ticket #%3 was relocated to this ticket"
 msgstr "A #%1 számú tranzakció (%2) a #%3 számú jegyből áthelyezésre került ebbe a jegybe"
 
+msgid "Relocate message"
+msgstr "Üzenet áthelyezése"
+
+msgid "Relocate message to ticket"
+msgstr "Üzenet áthelyezése ebbe a jegybe"
+
+msgid "No ticket and/or transaction specified" 
+msgstr "Nincs megadva a jegy vagy a tranzakció"
+
+msgid "Transaction not found"
+msgstr ""Nincs ilyen tranzakció"
+
+msgid "Transaction is not Correspond nor Comment"
+msgstr "A tranzakció nem hozzászólás vagy megjegyzés"
+
+msgid "Transaction #%1 did not belongs to ticket #%2"
+msgstr "A #%1 számú tranzakció nem a #%2 számú jegyhez tartozik"
+
+msgid "No right with name [%1] found!"
+msgstr "Nincs ilyen nevű jog: [%1]!"
+
+msgid "Source ticket not found"
+msgstr "A forrás jegy nem található"
+
+msgid "You have no permission to relocate reply from this ticket"
+msgstr "Nincs joga üzenetet áthelyezni ebből a jegyből"
+
+msgid "Target ticket id is not specified"
+msgstr "Nincs megadva a cél jegy"
+
+msgid "Target ticket not found"
+msgstr "A cél jegy nem található"
+
+msgid "You have no permission to relocate reply to target ticket. (#%1: %2)"
+msgstr "Nincs joga üzenetet áthelyezni a cél jegybe. (#%1: %2)"
+
+msgid "There were an error in relocating the requested transaction"
+msgstr "Hiba történt a kért tranzakció áthelyezésekor"
